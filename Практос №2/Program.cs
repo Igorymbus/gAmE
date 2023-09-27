@@ -44,7 +44,7 @@ class Program
         {
             Console.Write("Введите число от 0 до 100: ");
             guess = int.Parse(Console.ReadLine());
-            attempts++;
+            popitka++;
             if (guess > sekret)
             {
                 Console.WriteLine("Загаданное число меньше.");
